@@ -1,0 +1,82 @@
+.resturant-details-container {
+  display: flex;
+  flex-direction: column;
+  font-family: DM Sans;
+  padding: 0px 15px;
+}
+
+.heading-filter-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-resturant-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #183b56;
+}
+.popular-resturant-para {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-by-heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #183b56;
+}
+
+.resturant-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.resturant-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+@media (min-width: 768px) and (max-width: 921px) {
+  .resturant-details-container {
+    padding: 0px 80px;
+  }
+  .heading-filter-details {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .popular-resturant-heading {
+    font-size: 26px;
+  }
+  .popular-resturant-para {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 922px) {
+  .resturant-details-container {
+    padding: 0px 120px;
+  }
+  .heading-filter-details {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .popular-resturant-heading {
+    font-size: 28px;
+  }
+  .popular-resturant-para {
+    font-size: 18px;
+  }
+}

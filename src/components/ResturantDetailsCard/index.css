@@ -1,0 +1,162 @@
+.resturant-details-card-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.resturant-item-img {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.restaurant-item-details {
+  display: flex;
+  flex-direction: column;
+  font-family: DM Sans;
+}
+
+.restaurant-item-name {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+.restaurant-item-price {
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 3px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.rating-count-container {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 3px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.restaurant-details-rating-icon {
+  color: #ffcc00;
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+}
+
+.restaurant-details-rating {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.add-btn {
+  background-color: transparent;
+  border: 1px solid #ffcc00;
+  border-radius: 6px;
+  font-size: 12px;
+  width: 45px;
+  height: 25px;
+  color: #ffcc00;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+}
+
+.decrement-btn,
+.increment-btn {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #334155;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 9px;
+}
+
+.count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+  margin: 0;
+}
+
+.resturant-loader-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 921px) {
+  .resturant-details-card-container {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+  .resturant-item-img {
+    width: 190px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 922px) {
+  .resturant-details-card-container {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+  .resturant-item-img {
+    width: 250px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  .restaurant-item-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .restaurant-item-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .rating-count-container {
+    margin-bottom: 9px;
+  }
+  .restaurant-details-rating-icon {
+    height: 16px;
+    width: 16px;
+  }
+  .restaurant-details-rating {
+    font-size: 16px;
+  }
+  .add-btn {
+    font-size: 15px;
+    width: 55px;
+    height: 30;
+  }
+  .count-container {
+    gap: 12px;
+  }
+  .increment-btn,
+  .decrement-btn {
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+  }
+  .count {
+    font-size: 16px;
+  }
+}

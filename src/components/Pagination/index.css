@@ -1,0 +1,29 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.page-btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #334155;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+.page-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-number {
+  font-size: 18px;
+  font-weight: 500;
+  color: #334155;
+}

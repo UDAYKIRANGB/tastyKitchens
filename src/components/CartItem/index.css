@@ -1,0 +1,123 @@
+.Cart-list-item-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cart-item-img {
+  height: 90px;
+  width: 136px;
+  border-radius: 9px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-heading {
+  font-size: 14px;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.cart-count-container {
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+}
+
+.cart-decrement-btn,
+.cart-increment-btn {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #334155;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 9px;
+}
+
+.cart-count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+  margin: 0;
+}
+
+.cart-item-price {
+  display: flex;
+  align-items: center;
+  color: #ffa412;
+  margin-top: 10px;
+  gap: 6px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) and (max-width: 921px) {
+  .cart-item-details {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .cart-item-img {
+    margin-right: 15px;
+    height: 100px;
+    width: 150px;
+  }
+  .cart-item-heading {
+    font-size: 16px;
+    width: 20%;
+  }
+  .cart-decrement-btn,
+  .cart-increment-btn {
+    width: 22px;
+    height: 22px;
+    font-size: 16px;
+  }
+  .cart-count {
+    font-size: 16px;
+  }
+  .cart-item-price {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 922px) {
+  .cart-item-details {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .cart-item-img {
+    margin-right: 20px;
+    height: 100px;
+    width: 160px;
+  }
+  .cart-item-heading {
+    font-size: 18px;
+    margin-right: auto;
+  }
+  .cart-decrement-btn,
+  .cart-increment-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+  }
+  .cart-count {
+    font-size: 18px;
+  }
+  .cart-item-price {
+    font-size: 18px;
+    margin-left: 280px;
+  }
+  .cart-count-container {
+    margin-left: auto;
+    margin-right: 80px;
+  }
+}

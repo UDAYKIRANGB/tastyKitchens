@@ -1,0 +1,135 @@
+.link-item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.resturant-card-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.resturant-img {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.restaurant-details {
+  display: flex;
+  flex-direction: column;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+
+.restaurant-heading {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.restaurant-para {
+  color: #64748b;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.rating-details-container {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  margin-top: -5px;
+}
+
+.rating-icon-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.rating-icon {
+  color: #ffcc00;
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+}
+
+.rating {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.total-rating {
+  color: #64748b;
+  font-size: 14px;
+  padding-left: 8px;
+}
+
+.resturant-loader-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .resturant-card-container {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+  .restaurant-details {
+    padding-left: 10px;
+  }
+  .restaurant-heading {
+    font-size: 14px;
+  }
+  .restaurant-para {
+    font-size: 12px;
+  }
+  .rating-icon {
+    height: 12px;
+    width: 12px;
+  }
+  .rating {
+    font-size: 12px;
+  }
+  .rating-count {
+    font-size: 12px;
+  }
+  .resturant-img {
+    height: 110px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .resturant-card-container {
+    width: 30%;
+    margin-right: 40px;
+  }
+  .restaurant-heading {
+    font-size: 16px;
+  }
+  .restaurant-para {
+    font-size: 14px;
+  }
+  .rating-icon {
+    height: 14px;
+    width: 14px;
+  }
+  .rating {
+    font-size: 14px;
+  }
+  .rating-count {
+    font-size: 14px;
+  }
+}
