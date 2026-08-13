@@ -66,7 +66,7 @@ The Restaurant Details page displays information about the selected restaurant a
 
 Users can select food items and add them to the cart.
 
-## 🛒 Cart
+## Cart
 
 The Cart page displays the food items selected by the user.
 
