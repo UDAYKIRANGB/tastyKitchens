@@ -3,7 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
+<<<<<<< HEAD
+    "node": "24.x",
+=======
     "node": "^10.13 || 12 || 14 || 15",
+>>>>>>> aee7c49 (Update node version)
     "npm": ">=6"
   },
   "dependencies": {
