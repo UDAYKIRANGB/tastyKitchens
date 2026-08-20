@@ -16,9 +16,7 @@ const PageNotFound = () => (
     <p>Please go back to the homepage</p>
 
     <Link to="/" className="link-comp">
-      <button type="button">
-        Home Page
-      </button>
+      <button type="button">Home Page</button>
     </Link>
   </div>
 )

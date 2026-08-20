@@ -51,7 +51,7 @@ const Cart = () => {
             <hr className="line" />
             <div className="total-amount-container">
               <h1 className="order-total-heading">Order Total:</h1>
-              <p className="total-price" testid="total-price">
+              <p className="total-price">
                 <FaRupeeSign />
                 {cartData.reduce(
                   (total, eachItem) =>

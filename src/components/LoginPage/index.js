@@ -15,7 +15,8 @@ class LoginPage extends Component {
     const jwtToken = Cookies.get('jwt_token')
 
     if (jwtToken !== undefined) {
-      this.props.history.replace('/')
+      const {history} = this.props
+      history.replace('/')
     }
   }
 

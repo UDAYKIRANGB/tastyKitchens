@@ -82,7 +82,7 @@ const ResturantDetailsCard = props => {
   }
 
   return (
-    <li className="resturant-details-card-container" testid="foodItem">
+    <li className="resturant-details-card-container">
       <img src={imageUrl} className="resturant-item-img" alt={name} />
       <div className="restaurant-item-details">
         <h1 className="restaurant-item-name">{name}</h1>
@@ -103,20 +103,16 @@ const ResturantDetailsCard = props => {
             <button
               type="button"
               className="decrement-btn"
-              testid="decrement-count"
               onClick={onDecrease}
             >
               -
             </button>
 
-            <p className="count" testid="active-count">
-              {count}
-            </p>
+            <p className="count">{count}</p>
 
             <button
               type="button"
               className="increment-btn"
-              testid="increment-count"
               onClick={onIncrease}
             >
               +

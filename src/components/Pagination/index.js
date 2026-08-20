@@ -8,7 +8,6 @@ const Pagination = props => {
       <button
         type="button"
         className="page-btn"
-        testid="pagination-left-button"
         onClick={onClickPrevious}
         disabled={activePage === 1}
       >
@@ -16,13 +15,12 @@ const Pagination = props => {
       </button>
 
       <p className="page-number">
-        <span testid="active-page-number">{activePage}</span> of {totalPages}
+        <span>{activePage}</span> of {totalPages}
       </p>
 
       <button
         type="button"
         className="page-btn"
-        testid="pagination-right-button"
         onClick={onClickNext}
         disabled={activePage === totalPages}
       >

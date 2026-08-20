@@ -49,28 +49,24 @@ const CartItem = props => {
   }
 
   return (
-    <li className="Cart-list-item-container" testid="cartItem">
-      <img src={imageUrl} className="cart-item-img" />
+    <li className="Cart-list-item-container">
+      <img src={imageUrl} alt="cart-item-image" className="cart-item-img" />
       <div className="cart-item-details">
         <h1 className="cart-item-heading">{name}</h1>
         <div className="cart-count-container">
           <button
             type="button"
             className="cart-decrement-btn"
-            testid="decrement-quantity"
             onClick={onDecrease}
           >
             -
           </button>
 
-          <p className="cart-count" testid="item-quantity">
-            {quantity}
-          </p>
+          <p className="cart-count">{quantity}</p>
 
           <button
             type="button"
             className="cart-increment-btn"
-            testid="increment-quantity"
             onClick={onIncrease}
           >
             +
