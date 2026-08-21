@@ -2,6 +2,10 @@
 
 Tasty Kitchens is a responsive food ordering web application built using React.js. Users can log in, browse restaurants, sort and paginate restaurant listings, view restaurant details and food items, add items to their cart, manage quantities, and complete the ordering flow.
 
+## Live Demo
+
+[Visit Tasty Kitchens](https://udayresto.ccbp.tech)
+
 ## Features
 
 - User authentication with protected routes
@@ -146,11 +150,13 @@ npm install
 
 npm start
 
-The application will run at http://localhost:3000.
-
 ## Learning Outcomes
 
 This project provided practical experience in React.js, reusable components, state management, API integration, authentication, cookies, protected routes, React Router, sorting, pagination, local storage, cart management, responsive design, and handling loading, failure, empty, and not-found states.
+
+##Author
+
+**G B Uday Kiran**
 
 ## Author
 
