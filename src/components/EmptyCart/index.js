@@ -14,7 +14,7 @@ const EmptyCart = () => (
     <p>Your cart is empty. Add something from the menu.</p>
 
     <Link to="/" className="oder-now-link">
-      <button type="button" className="order-now-link">
+      <button type="button" className="empty-cart-container-btn">
         Order Now
       </button>
     </Link>
