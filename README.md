@@ -154,9 +154,6 @@ npm start
 
 This project provided practical experience in React.js, reusable components, state management, API integration, authentication, cookies, protected routes, React Router, sorting, pagination, local storage, cart management, responsive design, and handling loading, failure, empty, and not-found states.
 
-##Author
-
-**G B Uday Kiran**
 
 ## Author
 
